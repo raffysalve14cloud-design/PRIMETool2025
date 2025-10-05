@@ -1,0 +1,28 @@
+# Ignore virtual environments
+prime_env/
+prime_env_clean/
+venv/
+env/
+
+# Ignore build directories
+.buildozer/
+bin/
+dist/
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore logs
+*.log
