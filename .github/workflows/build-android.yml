@@ -31,7 +31,7 @@ jobs:
 
     - name: Copy buildozer config for minimal test
       run: |
-        cp buildozer_docker.spec buildozer.spec
+        cp buildozer_clean.spec buildozer.spec
 
     - name: Build APK
       run: |

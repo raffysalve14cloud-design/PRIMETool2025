@@ -11,8 +11,11 @@ package.domain = org.pagibig.primetest
 # (str) Source code where the main.py live
 source.dir = .
 
-# (list) Source files to include
-source.include_exts = py,png,jpg,kv,atlas,txt,db
+# (list) Source files to include (only essential files)
+source.include_exts = py
+source.exclude_exts = spec
+source.exclude_dirs = tests,test*
+source.exclude_patterns = test_*,*test*
 
 # (str) Application versioning
 version = 0.1
